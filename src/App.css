@@ -1,0 +1,40 @@
+/* src/StopWatch.css */
+body{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.StopWatch {
+  text-align: center;
+  font-family: Arial, sans-serif;
+  color: aliceblue;
+  background-color: black;
+  height: 100vh;
+
+  /* display: flex; */
+  /* align-items: center; */
+  /* justify-content: center; */
+}
+
+.StopWatch h1 {
+  margin-top: 0px;
+  padding-top: 8rem;
+  font-size: 6rem;
+}
+
+.StopWatch p {
+  font-size: 8rem;
+  margin: 20px 0;
+}
+
+.StopWatch button {
+  font-size: 1rem;
+  padding: 10px 20px;
+  background-color: rgb(246, 24, 161);
+  color: aliceblue;
+  font-weight: bolder;
+  border-color: aliceblue;
+  margin: 5px;
+  cursor: pointer;
+}
